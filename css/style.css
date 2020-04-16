@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Optima;
+	/* Optima */
+}
+
+header{
+	background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(38,105,86,1));
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: nonse;
+	color: #2E8B57;
+	padding: 5px 20px;
+	border: 2px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #2E8B57;
+	color: rgb(120, 182, 120);
+}
+
+ul li.active a {
+	background-color: #2E8B57;
+	color: rgb(120, 182, 120);
+}
+
+.logo img{
+	float: left;
+	width: 150px
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1{
+	color: #2E8B57;
+	font-size: 70px;
+}
+
+.button {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid rgb(0, 41, 0);
+	padding: 10px 30px;
+	color: rgb(0, 41, 0);
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #2E8B57;
+	color: rgb(0, 41, 0);
+}
