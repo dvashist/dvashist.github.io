@@ -41,3 +41,8 @@ ul li.active a {
 	background-color: #2E8B57;
 	color: rgb(120, 182, 120);
 }
+.logo img{
+	float: left;
+	width: 150px
+	height: auto;
+}
