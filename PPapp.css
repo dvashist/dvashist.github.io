@@ -29,6 +29,22 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.button {
+  background-color:#016ff9;
+  border:none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.buttonsp {
+  background-color: white;
+  color: #106ff9;
+  border: 2px solid #60a9ff;
+  border-radius: 10px;
+}
 ol, ul {
 	list-style: none;
 }
@@ -63,7 +79,7 @@ body {
   border-radius: 10px;
   padding: 15px 25px;
   width: 100%;
-  max-width: 960px;
+  max-width: 1060px;
   display: flex;
   flex-direction: column;
   text-align: center;
